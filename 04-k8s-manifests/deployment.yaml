@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: intent-classifier
-          image: <image-name>
+          image: bharath786/mlops-demo:latest
           ports:
             - containerPort: 6000
